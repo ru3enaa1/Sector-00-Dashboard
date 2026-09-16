@@ -1,0 +1,44 @@
+# ESTA RAMA NO LLEVA CODIGO.
+#
+# Es la vitrina: solo el README, la licencia y las capturas. El codigo vive en el
+# repositorio privado, en la rama `main`, y no debe cruzar nunca.
+#
+# Esto no es limpieza, es una red: las dos ramas comparten el mismo repositorio y
+# basta un `cp` distraido desde la carpeta de al lado para que algo de codigo
+# acabe en un repositorio publico. Lo que esta aqui listado no se puede anadir
+# por accidente -- haria falta un `git add -f` a proposito.
+
+src/
+scripts/
+public/
+arte/
+data/
+media/
+dist/
+node_modules/
+migraciones/
+drizzle/
+
+*.ts
+*.tsx
+*.js
+*.mjs
+*.cjs
+*.json
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+.env
+.env.*
+
+# Del arnes de desarrollo y del plan, que tampoco son publicos.
+.claude/
+CLAUDE.md
+PLAN_GARAGE_DASHBOARD.md
+encender.bat
+
+# Capturas a medias: solo entran PNG con su nombre definitivo.
+docs/capturas/*.xcf
+docs/capturas/*.psd
+docs/capturas/borrador*
