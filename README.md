@@ -12,7 +12,7 @@ Nothing leaves it.
 [![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Fastify](https://img.shields.io/badge/Fastify-5-000000?logo=fastify&logoColor=white)](https://fastify.dev/)
 [![SQLite](https://img.shields.io/badge/SQLite-local-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Tests](https://img.shields.io/badge/tests-181-21E6C1)](#testing)
+[![Tests](https://img.shields.io/badge/tests-189-21E6C1)](#testing)
 [![Local](https://img.shields.io/badge/your%20data-never%20leaves%20your%20disk-FFB13D)](#non-negotiable)
 
 <br>
@@ -52,15 +52,22 @@ what actually happened to your money.
 
 So: a spreadsheet rebuilt as an instrument, and a feed rebuilt as a shortlist.
 
-## One person, not a community
+## Individual organisation and control
 
 This is not a platform with a feed, and not a server where everyone sees the same list.
-**It is your board, on your machine, with your judgement.** Nobody sees your wallets,
-nobody knows which projects you are in, and there is no account to create. The entire
-database is one file on your disk.
+**It is your board, on your machine, organised around your own judgement.** Nobody sees
+your wallets, nobody knows which projects you are in, and there is no account to create.
+The entire database is one file on your disk.
 
-That decision is not technical, it is product: what you write down is your edge, and an
-edge shared by default stops being one.
+That decision is not technical, it is product. A shared list slowly starts measuring what
+the group likes; this one is shaped by what *you* rate, the plays you actually go for, and
+the way you prefer to work — down to which drawer a link lives in and what a discard was
+worth writing down for.
+
+**None of that means keeping things to yourself.** The space station below is exactly the
+opposite: a hub each board can send its best to. The point is that sharing happens **by
+choice, island by island**, after you have decided something is worth passing on — not as
+the default state of everything you write.
 
 ---
 
@@ -306,7 +313,7 @@ Thymeleaf stack — including what that stack does better.
 
 ## Testing
 
-**181 tests.** Mostly the shared contracts, which is where the decisions live: the money
+**189 tests.** Mostly the shared contracts, which is where the decisions live: the money
 maths, the intensity scale, the red-zone cap, the stealth gate, the follower velocity and
 the tier hit rate.
 
